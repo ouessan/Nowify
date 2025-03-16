@@ -18,7 +18,7 @@
       </div>
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
-      <h1 class="now-playing__idle-heading">No music is playinggg </h1>
+      <h1 class="now-playing__idle-heading">No music is playin </h1>
     </div>
   </div>
 </template>
@@ -250,7 +250,7 @@ export default {
         .map(colour => {
           return {
             text: palette[colour].getTitleTextColor(),
-            background: palette[0].getHex()
+            background: palette[#000000].getHex()
           }
         })
 

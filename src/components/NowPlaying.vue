@@ -18,7 +18,7 @@
       </div>
     </div>
     <div v-else class="now-playing" :class="getNowPlayingClass()">
-      <h1 class="now-playing__idle-heading">No music is playingwww</h1>
+      <h1 class="now-playing__idle-heading">No music is playing</h1>
     </div>
   </div>
 </template>
@@ -255,11 +255,10 @@ export default {
         })
 
       this.swatches = albumColours
+      this.swatches = 0
 
       this.colourPalette =
         albumColours[Math.floor(Math.random() * albumColours.length)]
-            this.colourPalette =
-      albumColours[0]
 
       this.$nextTick(() => {
         this.setAppColours()

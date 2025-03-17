@@ -54,9 +54,9 @@
     justify-content: center;
   }
 
-  @media only screen and (min-width: 567px) {
+  @media only screen and (min-width: 767px) {
     flex-flow: row nowrap;
-    padding: 10%;
+    padding: 1%;
 
     &__cover,
     &__details {

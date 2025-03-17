@@ -28,7 +28,7 @@
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3);
     height: auto;
     max-width: 60vw;
-    width: 120%;
+    width: 100%;
   }
 
   &__details {
@@ -61,7 +61,7 @@
     &__cover,
     &__details {
       width: 50%;
-      max-width: 495px;
+      max-width: 695px;
     }
 
     &__details {
